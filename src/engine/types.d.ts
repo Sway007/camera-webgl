@@ -1,7 +1,8 @@
 // TODO 兼容 WebGL 1.0, 不支持 VAO
 
 // type GLContext = WebGLRenderingContext | WebGL2RenderingContext;
-type GLContext = WebGL2RenderingContext;
+// type GLContext = WebGL2RenderingContext;
+type GLContext = WebGLRenderingContext;
 type COLOR = [number, number, number];
 type vec3 = [number, number, number] | Float32Array;
 

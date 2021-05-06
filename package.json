@@ -1,10 +1,13 @@
 {
-  "name": "three-exer",
+  "name": "camera-webgl",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "WebGL",
+    "WebRTC"
+  ],
+  "author": "swayyan",
   "license": "ISC",
   "dependencies": {
     "gl-matrix": "^3.3.0",
@@ -38,7 +41,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production --progress",
-    "run": "node server.js",
     "dev": "nodemon -e ts,tsx,js,jsx --watch src --exec 'npm run run'",
     "serve": "webpack serve"
   }

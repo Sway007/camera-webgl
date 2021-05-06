@@ -25,9 +25,9 @@ export class Shader extends Counter {
 
   private getUniformLocation(name: string) {
     const loc = this.gl.getUniformLocation(this._program, name);
-    if (!loc) {
-      throw new Error(`找不到uniform变量: ${name}`);
-    }
+    // if (!loc) {
+    //   throw new Error(`找不到uniform变量: ${name}`);
+    // }
     return loc;
   }
 
